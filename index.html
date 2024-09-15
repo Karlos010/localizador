@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Moderna con Google Maps</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=TU_CLAVE_API&callback=initMap" async defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#quienes-somos">Quiénes Somos</a></li>
+        <li><a href="#faq">Preguntas y Respuestas</a></li>
+        <li><a href="#localizador">Localizador</a></li>
+        <li><a href="#mi-plan">Mi Plan</a></li>
+        <li><a href="#mi-cuenta">Mi Cuenta</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="map-section">
+      <div id="map"></div>
+    </section>
+
+    <section id="content-section">
+      <div id="contacto" class="content">
+        <h2>Contacto</h2>
+        <p>Aquí puedes encontrar nuestra información de contacto.</p>
+      </div>
+
+      <div id="quienes-somos" class="content">
+        <h2>Quiénes Somos</h2>
+        <p>Somos una empresa dedicada a ofrecer los mejores servicios.</p>
+      </div>
+
+      <div id="faq" class="content">
+        <h2>Preguntas y Respuestas</h2>
+        <p>Encuentra aquí las respuestas a las preguntas más comunes.</p>
+      </div>
+
+      <div id="localizador" class="content">
+        <h2>Localizador</h2>
+        <p>Utiliza el mapa para localizar nuestras oficinas.</p>
+      </div>
+
+      <div id="mi-plan" class="content">
+        <h2>Mi Plan</h2>
+        <p>Revisa los detalles de tu plan contratado.</p>
+      </div>
+
+      <div id="mi-cuenta" class="content">
+        <h2>Mi Cuenta</h2>
+        <p>Gestiona tu cuenta y preferencias aquí.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Mi Empresa. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
